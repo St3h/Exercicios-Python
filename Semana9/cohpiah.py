@@ -1,7 +1,10 @@
+'''DETECTOR DE AUTORIA'''
+'''Este programa compara traços linguisticos entres diferntes textos que recebe para identificar a autoria dos mesmos'''
+
 import re
 
 def le_assinatura():
-    '''A funcao le os valores dos tracos linguisticos do modelo e devolve uma   ass_a a ser comparada com os textos fornecidos'''
+    '''A funcao le os valores dos tracos linguisticos do modelo e devolve uma ass_a a ser comparada com os textos fornecidos'''
     print("Bem-vindo ao detector automático de COH-PIAH.")
 
     wal = float(input("Entre o tamanho medio de palavra:"))
